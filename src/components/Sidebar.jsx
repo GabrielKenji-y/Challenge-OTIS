@@ -4,8 +4,8 @@ function Sidebar({ currentView, onViewChange }) {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: 'bi-bar-chart' },
     { id: 'map', label: 'Mapa Regional', icon: 'bi-globe' },
-    { id: 'projects', label: 'Projetos', icon: 'bi-file-text', badge: 4 },
-    { id: 'feedback', label: 'Feedback', icon: 'bi-people', badge: 2, badgeColor: 'danger' }
+    { id: 'projects', label: 'Projetos', icon: 'bi-file-text', badge: 3 },
+    { id: 'feedback', label: 'Feedback', icon: 'bi-people', badge: 1, badgeColor: 'danger' }
   ];
 
   return (

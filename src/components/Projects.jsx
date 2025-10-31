@@ -30,11 +30,11 @@ function Projects() {
   ];
 
   const summaryStats = [
-    { label: 'Total', value: 5, color: '#0f172a' },
+    { label: 'Total', value: 4, color: '#0f172a' },
     { label: 'Atrasados', value: 1, color: '#f59e0b' },
     { label: 'Em Produção', value: 2, color: '#2563eb' },
     { label: 'Concluídos', value: 1, color: '#22c55e' },
-    { label: 'Taxa Conclusão', value: '20%', color: '#64748b' }
+    { label: 'Taxa Conclusão', value: '25%', color: '#64748b' }
   ];
 
   return (
