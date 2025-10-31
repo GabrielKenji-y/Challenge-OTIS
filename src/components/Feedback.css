@@ -1,0 +1,227 @@
+.feedback-page {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  border: 1px solid #e2e8f0;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #1e293b;
+}
+
+/* Cabeçalho */
+.feedback-header {
+  margin-bottom: 24px;
+}
+
+.feedback-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.feedback-subtitle {
+  color: #64748b;
+  margin-top: 4px;
+}
+
+/* Distribuição das avaliações */
+.rating-distribution {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.rating-card {
+  flex: 1;
+  min-width: 100px;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+.rating-number {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.rating-bar {
+  width: 100%;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  margin: 6px 0;
+}
+
+.rating-fill {
+  height: 6px;
+  background: #3b82f6;
+  border-radius: 4px;
+}
+
+/* Resumo geral */
+.rating-summary {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.rating-summary h2 {
+  font-size: 2rem;
+  margin: 4px 0;
+}
+
+.rating-summary .stars {
+  color: #facc15;
+  font-size: 1.4rem;
+}
+
+.positive-text {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+/* Controles */
+.feedback-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.feedback-tab {
+  background: #f1f5f9;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.feedback-tab.active {
+  background: #3b82f6;
+  color: white;
+}
+
+.feedback-search {
+  display: flex;
+  gap: 12px;
+}
+
+.feedback-search input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  width: 300px;
+}
+
+.feedback-search select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+/* Lista de feedbacks */
+.feedback-list {
+  margin-top: 16px;
+}
+
+.feedback-item {
+  display: flex;
+  gap: 16px;
+  border-top: 1px solid #cdcdce;
+  border-bottom: 1px solid #cdcdce;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.feedback-avatar {
+  width: 48px;
+  height: 48px;
+  background: #e2e8f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #475569;
+}
+
+.feedback-info {
+  flex: 1;
+}
+
+.feedback-header-info h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.country-badge {
+  background: #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  margin-left: 4px;
+}
+
+.project-name {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin: 2px 0 6px 0;
+}
+
+.feedback-stars {
+  color: #facc15;
+  font-size: 1rem;
+}
+
+.feedback-date {
+  color: #94a3b8;
+  margin-left: 6px;
+}
+
+.feedback-text {
+  margin: 8px 0;
+  color: #334155;
+}
+
+.feedback-supervisor {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.feedback-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.tag.public {
+  background: #e2e8f0;
+}
+
+.feedback-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.like {
+  color: #475569;
+}
+
+.reply-btn {
+  border: none;
+  background: none;
+  color: #3b82f6;
+  font-weight: 600;
+  cursor: pointer;
+}
